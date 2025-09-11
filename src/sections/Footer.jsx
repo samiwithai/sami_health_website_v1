@@ -9,8 +9,8 @@ export default function Footer() {
           <h4 className="text-xl font-bold font-heading mb-4">Contact</h4>
           <p className="flex items-center justify-center md:justify-start gap-3 text-sm mt-4">
             <Mail size={16} />
-            <a href="mailto:info@samiplus.org" className="underline">
-              info@samiplus.org
+            <a href="mailto:info@samihealth.org" className="underline">
+              info@samihealth.org
             </a>
           </p>
         </div>
