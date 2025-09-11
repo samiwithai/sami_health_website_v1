@@ -22,7 +22,7 @@ export default function OurApproach() {
             Our Approach
           </h2>
           <p className="text-lg text-gray-800 max-w-3xl mx-auto leading-relaxed mb-12">
-            We combine training, technology, and partnerships:
+          We bring together training, technology, and partnerships to transform maternal and newborn care:
           </p>
         </motion.div>
 
@@ -38,20 +38,7 @@ export default function OurApproach() {
             <Users className="mx-auto text-black mb-6" size={48} />
             <h3 className="font-bold text-xl text-black mb-4">Train</h3>
             <p className="text-gray-800 leading-relaxed">
-              Equip local community health technicians with the skills to provide quality imaging care.
-            </p>
-          </motion.div>
-          <motion.div
-            className="text-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <Stethoscope className="mx-auto text-black mb-6" size={48} />
-            <h3 className="font-bold text-xl text-black mb-4">Deploy</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Deliver handheld, AI-powered ultrasound devices to extend access in rural and remote clinics.
+            Build the capacity of community health technicians with the skills and confidence to deliver quality imaging care.
             </p>
           </motion.div>
           <motion.div
@@ -64,7 +51,20 @@ export default function OurApproach() {
             <Handshake className="mx-auto text-black mb-6" size={48} />
             <h3 className="font-bold text-xl text-black mb-4">Partner</h3>
             <p className="text-gray-800 leading-relaxed">
-              Collaborate with local health facilities to build capacity and integrate sustainable solutions.
+            Strengthen local health facilities through collaboration and sustainable system integration.
+            </p>
+          </motion.div>
+          <motion.div
+            className="text-center"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            <Stethoscope className="mx-auto text-black mb-6" size={48} />
+            <h3 className="font-bold text-xl text-black mb-4">Deploy</h3>
+            <p className="text-gray-800 leading-relaxed">
+            Expand access by equipping rural and remote clinics with handheld, AI-powered ultrasound devices (POCUS).
             </p>
           </motion.div>
         </div>
