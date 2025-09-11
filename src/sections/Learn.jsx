@@ -64,7 +64,7 @@ export default function OurApproach() {
             <Stethoscope className="mx-auto text-black mb-6" size={48} />
             <h3 className="font-bold text-xl text-black mb-4">Deploy</h3>
             <p className="text-gray-800 leading-relaxed">
-            Expand access by equipping rural and remote clinics with handheld, AI-powered ultrasound devices (POCUS).
+            Expand access by equipping rural and remote clinics with handheld, AI-powered point-of-care ultrasound (POCUS).
             </p>
           </motion.div>
         </div>
