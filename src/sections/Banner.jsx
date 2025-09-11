@@ -24,7 +24,7 @@ export default function Banner() {
         }}
       >
         <h1 className="text-xl md:text-3xl lg:text-4xl font-bold tracking-tight leading-tight mb-8 text-white">
-          Innovating prenatal imaging with AI—for early detection, safer pregnancies, and healthier deliveries, one scan at a time.
+          Innovating prenatal imaging with AI—for early detection, healthier pregnancies, and safer deliveries, one scan at a time.
         </h1>
         <a
           href="#about"
