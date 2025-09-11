@@ -1,7 +1,7 @@
 
 # SAMI+ Website
 
-Welcome to the official website for **SAMI+**, an innovative organization focused on revolutionizing prenatal imaging with AI technology for early detection, safer pregnancies, and healthier deliveries in the Democratic Republic of Congo (DRC)
+Welcome to the official website for **SAMI+**, an innovative organization focused on revolutionizing prenatal imaging with AI technology for early detection, healthier pregnancies, and safer deliveries in the Democratic Republic of Congo (DRC)
 
 This is a modern single-page React application with smooth scroll navigation and full responsiveness, built using:
 
@@ -93,7 +93,7 @@ MIT License.
 
 ## 🏥 SAMI+
 
-> _Innovating prenatal imaging with AI—for early detection, safer pregnancies, and healthier deliveries, one scan at a time._
+> _Innovating prenatal imaging with AI—for early detection, healthier pregnancies, and safer deliveries, one scan at a time._
 
 **Key Features:**
 - Modern black-and-white minimalist design
