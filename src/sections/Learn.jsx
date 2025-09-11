@@ -78,7 +78,7 @@ export default function OurApproach() {
           viewport={{ once: true }}
         >
           <p className="text-lg text-gray-800 leading-relaxed">
-            Our scalable, data-driven model enables early risk detection and timely intervention—ensuring healthier pregnancies, safer births, and stronger beginnings, one scan at a time.
+          Our scalable, data-driven model enables early risk detection and timely clinical intervention to promote healthier pregnancies, safer births, and stronger beginnings, one scan at a time.
           </p>
         </motion.div>
       </div>
