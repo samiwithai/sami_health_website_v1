@@ -102,4 +102,4 @@ MIT License.
 - Responsive design with smooth animations
 - Contact section with updated information
 
-Contact us at: [info@samiplus.org](mailto:info@samiplus.org)
+Contact us at: [info@samihealth.org](mailto:info@samihealth.org)
