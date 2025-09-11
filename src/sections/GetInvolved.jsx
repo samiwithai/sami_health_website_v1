@@ -31,10 +31,10 @@ export default function Contact() {
             <Mail className="text-black" size={24} />
             <span className="text-gray-800">Email:</span>
             <a 
-              href="mailto:info@samiplus.org" 
+              href="mailto:info@samihealth.org" 
               className="text-black font-medium hover:underline"
             >
-              info@samiplus.org
+              info@samihealth.org
             </a>
           </div>
         </motion.div>
