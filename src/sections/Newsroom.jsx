@@ -7,7 +7,7 @@ export default function Newsroom() {
       <div className="max-w-6xl mx-auto">
         <Eyebrow>Newsroom</Eyebrow>
         <h2 className="font-serif text-2xl font-semibold mt-4 text-gray-900">Newsroom — in progress</h2>
-        <p className="text-gray-600 mt-3">Press mentions and announcements will live here. Content pending.</p>
+        <p className="text-gray-600 mt-3">Press mentions and announcements will live here. Content pending</p>
       </div>
     </section>
   );
