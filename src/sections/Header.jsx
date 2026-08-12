@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
+
+const MOBILE_LINKS = [
+  { label: "About Us", href: "#about" },
+  { label: "Our Work", href: "#work" },
+  { label: "Our Team", href: "#team" },
+  { label: "Newsroom", href: "#newsroom" },
+  { label: "Contact Us", href: "#partner" },
+];
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,21 +16,37 @@ export default function Header() {
     <header className="bg-white text-black fixed top-0 left-0 w-full z-50 shadow-sm border-b border-gray-200">
       <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-4 md:px-6">
         <div className="flex items-center">
-          <h1 className="text-2xl md:text-3xl font-bold font-sans tracking-tight">
-            SAMI+
+          <h1 className="text-2xl md:text-3xl font-serif font-semibold tracking-tight">
+            SAMI<span className="text-gray-500">+</span>
           </h1>
         </div>
 
-        <nav className="hidden md:flex space-x-8 text-sm font-medium">
+        <nav className="hidden md:flex items-center space-x-8 text-sm font-medium">
           <a href="#about" className="hover:text-gray-600 transition-colors">
-            About
+            About Us
           </a>
-          <a href="#approach" className="hover:text-gray-600 transition-colors">
-            Our Approach
+          <a href="#work" className="hover:text-gray-600 transition-colors">
+            Our Work
           </a>
-          <a href="#contact" className="hover:text-gray-600 transition-colors">
-            Contact Us
-          </a>
+          <div className="relative group">
+            <span className="flex items-center gap-1 cursor-pointer hover:text-gray-600 transition-colors">
+              Resources
+              <ChevronDown size={14} />
+            </span>
+            <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 min-w-[160px] hidden group-hover:block z-10">
+              <div className="bg-white border border-gray-200 py-1.5 flex flex-col shadow-sm">
+                <a href="#team" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black whitespace-nowrap">
+                  Our Team
+                </a>
+                <a href="#newsroom" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black whitespace-nowrap">
+                  Newsroom
+                </a>
+                <a href="#partner" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black whitespace-nowrap">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
         </nav>
 
         <button
@@ -48,27 +72,16 @@ export default function Header() {
           </button>
         </div>
         <nav className="flex flex-col gap-6 px-8 py-6 text-white">
-          <a
-            href="#about"
-            onClick={() => setIsOpen(false)}
-            className="text-lg hover:text-gray-300 transition-colors"
-          >
-            About
-          </a>
-          <a
-            href="#approach"
-            onClick={() => setIsOpen(false)}
-            className="text-lg hover:text-gray-300 transition-colors"
-          >
-            Our Approach
-          </a>
-          <a
-            href="#contact"
-            onClick={() => setIsOpen(false)}
-            className="text-lg hover:text-gray-300 transition-colors"
-          >
-            Contact Us
-          </a>
+          {MOBILE_LINKS.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={() => setIsOpen(false)}
+              className="text-lg hover:text-gray-300 transition-colors"
+            >
+              {link.label}
+            </a>
+          ))}
         </nav>
       </div>
     </header>

@@ -23,7 +23,7 @@ export default function Banner() {
           stiffness: 50
         }}
       >
-        <h1 className="text-xl md:text-3xl lg:text-4xl font-bold tracking-tight leading-tight mb-8 text-white">
+        <h1 className="font-serif text-2xl md:text-4xl lg:text-5xl font-semibold tracking-tight leading-tight mb-8 text-white">
           Innovating prenatal imaging with AI—for early detection, healthier pregnancies, and safer deliveries, one scan at a time.
         </h1>
         <a

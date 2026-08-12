@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-black text-white py-20 px-6 md:px-20">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 text-center md:text-left">
         <div>
-          <h4 className="text-xl font-bold font-heading mb-4">Contact</h4>
+          <h4 className="text-xl font-bold font-serif mb-4">Contact</h4>
           <p className="flex items-center justify-center md:justify-start gap-3 text-sm mt-4">
             <Mail size={16} />
             <a href="mailto:info@samihealth.org" className="underline">
@@ -16,16 +16,18 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-xl font-bold font-heading mb-4">Quick Links</h4>
-          <ul className="text-sm space-y-4 mt-4">
-            <li><a href="#about" className="hover:underline">About</a></li>
-            <li><a href="#approach" className="hover:underline">Our Approach</a></li>
-            <li><a href="#contact" className="hover:underline">Contact</a></li>
+          <h4 className="text-xl font-bold font-serif mb-4">Quick Links</h4>
+          <ul className="grid grid-cols-2 gap-x-8 gap-y-4 text-sm mt-4 justify-center md:justify-start">
+            <li><a href="#about" className="hover:underline">About Us</a></li>
+            <li><a href="#work" className="hover:underline">Our Work</a></li>
+            <li><a href="#team" className="hover:underline">Our Team</a></li>
+            <li><a href="#newsroom" className="hover:underline">Newsroom</a></li>
+            <li><a href="#partner" className="hover:underline">Contact Us</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-xl font-bold font-heading mb-4">Follow Us</h4>
+          <h4 className="text-xl font-bold font-serif mb-4">Follow Us</h4>
           <div className="flex justify-center md:justify-start gap-4">
             <a href="#" className="hover:text-gray-300"><Facebook size={20} /></a>
             <a href="#" className="hover:text-gray-300"><Instagram size={20} /></a>
